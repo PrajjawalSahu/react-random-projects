@@ -18,18 +18,18 @@ const InputText = ({ inputText, setInputText, todoArray, setTodoArray, setFilter
     setFilter(e.target.value);
   }
   return (
-    <form>
+    <form className="form">
       <input value={inputText} onChange={inputTextHandler} type="text" className="todo-input" />
-      <button onClick={submitTodoHandler} className="todo-button" type="submit">
-        <i className="fas fa-plus-square"></i>
+      <button onClick={submitTodoHandler} className="todo-button" type="submit"> +
+        {/* <i className="fas fa-plus-square"></i> */}
       </button>
-      <div className="select">
+      {/* <div className="select">
         <select onChange={filterHandler} name="todos" className="filter-todo">
-          <option value="all">All</option>
-          <option value="completed">Completed</option>
-          <option value="uncompleted">Uncompleted</option>
+          <option className="filter-option" value="all">All</option>
+          <option className="filter-option" value="completed">Completed</option>
+          <option className="filter-option" value="uncompleted">Uncompleted</option>
         </select>
-      </div>
+      </div> */}
     </form>
   );
 };
