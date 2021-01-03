@@ -73,6 +73,8 @@ const getLocalTodos = () => {
       ></InputText>
       
       <TodoList todoArray={todoArray} setTodoArray={setTodoArray}></TodoList>
+
+      <a href="#"><div className="scroll-to-top todo-button" href="#"> ^ </div></a>
     </div>
   );
 }

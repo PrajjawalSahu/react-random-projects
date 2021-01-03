@@ -17,14 +17,16 @@ const TodoItem = ({text, id, todoItem, todoArray, setTodoArray}) => {
         }))
     }
   return (
-    <div className="">
+    <div className="todo-wrapper">
       <p className={`todo todo-item ${todoItem.completed ? "completed" : ""}`}>{text}</p>
+      <div className="button-wrapper">
       <button onClick={completeHandler} className="complete-btn">
           <i className="fas fa-check"></i>
       </button>
       <button onClick={deleteHandler} className="trash-btn">
           <i className="fas fa-trash"></i>
       </button>
+      </div>
     </div>
   );
 };
