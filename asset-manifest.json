@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-random-projects/static/css/main.e6fff898.chunk.css",
+    "main.css": "/react-random-projects/static/css/main.c7f67175.chunk.css",
     "main.js": "/react-random-projects/static/js/main.e088caf3.chunk.js",
     "main.js.map": "/react-random-projects/static/js/main.e088caf3.chunk.js.map",
     "runtime-main.js": "/react-random-projects/static/js/runtime-main.4ce3d12a.js",
@@ -10,13 +10,13 @@
     "static/js/3.8280e994.chunk.js": "/react-random-projects/static/js/3.8280e994.chunk.js",
     "static/js/3.8280e994.chunk.js.map": "/react-random-projects/static/js/3.8280e994.chunk.js.map",
     "index.html": "/react-random-projects/index.html",
-    "static/css/main.e6fff898.chunk.css.map": "/react-random-projects/static/css/main.e6fff898.chunk.css.map",
+    "static/css/main.c7f67175.chunk.css.map": "/react-random-projects/static/css/main.c7f67175.chunk.css.map",
     "static/js/2.e97ec2aa.chunk.js.LICENSE.txt": "/react-random-projects/static/js/2.e97ec2aa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4ce3d12a.js",
     "static/js/2.e97ec2aa.chunk.js",
-    "static/css/main.e6fff898.chunk.css",
+    "static/css/main.c7f67175.chunk.css",
     "static/js/main.e088caf3.chunk.js"
   ]
 }
