@@ -120,13 +120,13 @@ form input {
   /* border: green solid 4px; */
   width: 100vw;
   max-width: 900px;
+  margin-top: 60vh;
 }
-@media only screen and (max-width: 1500px) {
+/* @media only screen and (max-width: 1500px) {
   .todo-container {
-    /* width: ; */
-    margin-top: 80vh;
+  margin-top: 80vh;
   }
-}
+} */
 
 .todo-list {
   display: flex;
