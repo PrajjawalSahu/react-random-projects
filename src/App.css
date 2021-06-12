@@ -85,7 +85,7 @@ form input {
   height: 50px;
   font-size: 1.25rem;
   border: none;
-  color: white;
+  color: black;
 
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -120,19 +120,14 @@ form input {
   /* border: green solid 4px; */
   width: 100vw;
   max-width: 900px;
-  margin-top: 60vh;
+  /* margin-top: 60vh; */
 }
-<<<<<<< HEAD
-/* @media only screen and (max-width: 1500px) {
+
+@media only screen and (max-width: 1500px) {
   .todo-container {
-  margin-top: 80vh;
-=======
-/* @media only screen and (max-width: 2000px) {
-  .todo-container {
-    margin-top: 60vh;
->>>>>>> 053cd6e5b3367f709fe09a2c50dc2cddb637bff0
+  margin-top: 60vh;
   }
-} */
+}
 
 .todo-list {
   display: flex;
